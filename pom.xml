@@ -18,7 +18,7 @@
         <kotlin.version>1.8.22</kotlin.version>
         <testcontainers.version>1.18.3</testcontainers.version>
         <awsjavasdk.version>2.20.116</awsjavasdk.version>
-        <awscrt.version>0.24.0</awscrt.version>
+        <awscrt.version>0.23.0</awscrt.version>
     </properties>
     <dependencies>
         <dependency>
