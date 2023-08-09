@@ -12,7 +12,8 @@ class AwsCrtLibericaProblemIntegrationIT {
 
     @Test
     fun liberica() {
-        val regex = "\\[error occurred during error reporting \\(printing Java stack\\).*"
+        val regex = ".*Transfer is complete.*"
+//        val regex = "\\[error occurred during error reporting \\(printing Java stack\\).*"
         assertDockerImageWithRegex("./Dockerfile-liberica", regex)
     }
 
